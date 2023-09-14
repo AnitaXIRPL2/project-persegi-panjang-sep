@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luas persegi panjang Converter</title>
+
+    <style>
+        .calculator-container{
+            background-color: sienna;
+            color: khaki;
+            width: 500px;
+            padding: 50px;
+            margin: auto;
+            border: 3px solid goldenrod;
+        }
+        button{
+            background-color: khaki;
+            color: black;
+            border: none;
+            min-height: 50px;
+            min-width: 100px;
+            border-radius: 30px;
+        }
+        button:hover{
+            background-color: lawngreen;
+            color: black;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator-container">
+        <h1>Persegi Panjang Calculator</h1>
+        <p>Panjang in meters</p>
+        <input class="panjang-input-field" type="text">
+        <p>Lebar in meters</p>
+        <input class="lebar-input-field" type="text"><br><br>
+         <button onclick="myFunction()" class="calculate">Calculate</button> 
+    </div>
+    <script src="ra.js"></script>
+</body>
+</html>
